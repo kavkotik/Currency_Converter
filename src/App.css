@@ -1,0 +1,76 @@
+.main-wraper {
+  margin: 20px 100px;
+  border: 1px solid rgb(0, 110, 110);
+  font-family: "Nunito Sans";
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 50px;
+  background-color: rgba(0, 135, 135, 0.86);
+  padding: 20px 50px;
+  flex-wrap: wrap;
+}
+.head-title {
+  font-size: 26px;
+  color: white;
+  margin-right: 15px;
+}
+.current-rates-title {
+  color: rgb(47, 47, 47);
+  margin-bottom: 5px;
+}
+.current-rates {
+  color: white;
+}
+.main-title {
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  color: rgb(0, 110, 110);
+  text-align: center;
+  padding: 20px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+/* .first-valute {
+  margin-right: 50px;
+} */
+.valute-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 25px;
+}
+.valute-input {
+  margin-bottom: 20px;
+}
+input {
+  outline: none;
+  padding: 5px;
+  color: rgb(84, 84, 84);
+  font-family: "Nunito Sans";
+}
+select {
+  font-family: "Nunito Sans";
+  border: none;
+  outline: none;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("../public/fonts/Nunito_Sans/NunitoSans_10pt-ExtraLight.ttf");
+}
+
+@media (max-width: 500px) {
+  .main-wraper {
+    margin: 20px;
+  }
+}
